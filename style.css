@@ -1,0 +1,196 @@
+body{
+    background-image: url("painting1.jpg");
+    background-size: cover;
+}
+
+#body{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 4rem;
+    
+}
+
+p{
+    font-family: cursive;
+    font-size: 24px;
+    display: inline;
+    text-decoration: underline;
+}
+
+
+#text{
+    width: 26rem;
+    height: 26rem;
+    font-size: 2.5rem;
+    border: 2px solid black;
+    border-radius: 2rem;
+    text-align: center;
+}
+
+#backgroundcolorcontainer{
+
+    width: 24rem;
+    height: 24rem;
+    border: 2px solid black;
+    border-radius: 2rem;
+    padding: 1rem;
+    
+}
+
+button{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+}
+
+.button:hover{
+    background:rgb(255,255,255,0.5);
+}
+
+
+#textcolorcontainer{
+    width: 24rem;
+    height: 24rem;
+    border: 2px solid black;
+    border-radius: 2rem;
+    padding: 1rem;
+}
+
+#red{
+    background-color: red;
+}
+#green{
+    background-color: green;
+}
+
+#blue{
+    background-color: blue;
+}
+
+#white{
+    background-color: white;
+    border: 0.5px solid lightgrey;
+}
+
+
+#violet{
+    background-color: violet;
+}
+#pink{
+    background-color: pink;
+}
+
+#yellow{
+    background-color: yellow;
+}
+
+#orange{
+    background-color: orange;
+}
+
+#black{
+    background-color: black;
+}
+
+#turquoise{
+    background-color: turquoise;
+}
+
+#purple{
+    background-color: purple;
+}
+
+#brown{
+    background-color: brown;
+}
+
+#gold{
+    background-color: gold;
+}
+
+#maroon{
+    background-color: maroon;
+}
+
+#cadetblue{
+    background-color: cadetblue;
+}
+
+#cream{
+    background-color: chocolate;
+}
+
+#grey{
+    background-color: grey;
+}
+
+#seagreen{
+    background-color: powderblue;
+}
+
+#dodgerblue{
+    background-color: dodgerblue;
+}
+
+#deeppink{
+    background-color: deeppink;
+}
+
+#indigo{
+    background-color: indigo;
+}
+
+#yellowgreen{
+    background-color: yellowgreen;
+}
+
+#lightgreen{
+    background-color: lightgreen;
+}
+
+
+a{
+    text-decoration: none;
+   
+    font-size: 24px;
+    border: 2px solid lightgray;
+    border-radius: 2rem;
+    padding: 0.4rem;
+    position: relative;
+    left: 10%;
+    color: dodgerblue;
+    background-color: white;
+}
+
+
+
+@media only screen and (max-width:1012px) {
+
+    #body{
+        display: inline-block;
+        justify-content: space-around;
+        margin-top: 4rem;
+        position: relative;     
+        left: 15%;   
+    }
+    body{
+        background-image: url("painting.jpg");
+        background-size: cover;
+    }
+    a{
+        left: 50%;
+    }
+    
+    #text{
+      
+        margin-bottom: 2rem;
+    }
+
+    #backgroundcolorcontainer{
+
+        margin-bottom: 2rem;
+    }
+    
+}
