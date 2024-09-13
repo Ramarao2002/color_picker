@@ -184,6 +184,8 @@ a{
     }
     
     #text{
+        width: 25rem;
+        height: 25rem;
       
         margin-bottom: 2rem;
     }
