@@ -147,3 +147,14 @@ function myfundodgerbluetext(){
 function myfunwhitetext(){
     document.getElementById('text').style.color="white";
 }
+
+
+//download button
+function myfundownload(){
+    html2canvas(document.getElementById('content')). then (canvas => {
+        const link=document.createElement('a') 
+        link.href=canvas.toDataURL('image/png')
+        link.download='image-png'
+        link.click();
+    });
+}
